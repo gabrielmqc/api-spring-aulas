@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ExampleController {
 
     @GetMapping
-    public ResponseEntity<String> exemplo() {
-        return ResponseEntity.ok("Parabén acabou de criar sua primeira rota!");
+    public String exemplo() {
+        return "Parabén acabou de criar sua primeira rota!";
     }
 }
